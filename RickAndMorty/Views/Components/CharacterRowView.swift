@@ -108,7 +108,7 @@ struct CharacterRowView: View {
                         if character.location == nil || character.location?.name == "unknown" {
                             EmptyLocationView(name: character.name, image: character.image ?? "")
                         } else {
-//                            LocationView(locationURL: URL(string: (character.location?.url)!)!)
+                            LocationView(locationURL: URL(string: (character.location?.url)!)!)
                         }
                     } label: {
                         HStack {

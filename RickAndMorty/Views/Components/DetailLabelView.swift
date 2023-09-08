@@ -12,7 +12,7 @@ struct DetailLabelView: View {
     var value: String?
     
     var body: some View {
-        HStack(alignment: .bottom){
+        HStack(alignment: .center){
             Text("\(key):")
                 .font(.subheadline)
                 .fontWeight(.semibold)
