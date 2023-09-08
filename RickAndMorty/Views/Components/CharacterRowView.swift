@@ -95,10 +95,10 @@ struct CharacterRowView: View {
                                     .foregroundColor(isFavorite! ? Color.pink : Color.gray)
                             }
                         }
-//                        DetailLabelView(key: "Status", value: character.status)
-//                        DetailLabelView(key: "Species", value: character.species)
-//                        DetailLabelView(key: "Gender", value: character.gender)
-//                        DetailLabelView(key: "Origin", value: character.origin?.name)
+                        DetailLabelView(key: "Status", value: character.status)
+                        DetailLabelView(key: "Species", value: character.species)
+                        DetailLabelView(key: "Gender", value: character.gender)
+                        DetailLabelView(key: "Origin", value: character.origin?.name)
                     }
                     Spacer(minLength: 0)
                 }
@@ -106,14 +106,14 @@ struct CharacterRowView: View {
                 HStack {
                     NavigationLink {
                         if character.location == nil || character.location?.name == "unknown" {
-//                            EmptyLocationView(name: character.name, image: character.image ?? "")
+                            EmptyLocationView(name: character.name, image: character.image ?? "")
                         } else {
 //                            LocationView(locationURL: URL(string: (character.location?.url)!)!)
                         }
                     } label: {
                         HStack {
-//                            DetailLabelView(key: "Last Location", value: character.location?.name)
-//                                .padding(.horizontal)
+                            DetailLabelView(key: "Last Location", value: character.location?.name)
+                                .padding(.horizontal)
                             Spacer()
                             Image(systemName: "chevron.right")
                                 .fontWeight(.bold)

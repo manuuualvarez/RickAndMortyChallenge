@@ -31,6 +31,8 @@
 		FE71A1612AAAAED500D9D4BC /* CharacterRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE71A1602AAAAED500D9D4BC /* CharacterRowView.swift */; };
 		FE71A1642AAAB05900D9D4BC /* Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE71A1632AAAB05900D9D4BC /* Mocks.swift */; };
 		FEC39A992AAAB199002677FA /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FEC39A982AAAB199002677FA /* SDWebImageSwiftUI */; };
+		FEC39A9B2AAAB372002677FA /* DetailLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC39A9A2AAAB372002677FA /* DetailLabelView.swift */; };
+		FEC39A9D2AAAB3A6002677FA /* EmptyLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC39A9C2AAAB3A6002677FA /* EmptyLocationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +77,8 @@
 		FE71A15B2AAAAE6400D9D4BC /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
 		FE71A1602AAAAED500D9D4BC /* CharacterRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterRowView.swift; sourceTree = "<group>"; };
 		FE71A1632AAAB05900D9D4BC /* Mocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mocks.swift; sourceTree = "<group>"; };
+		FEC39A9A2AAAB372002677FA /* DetailLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailLabelView.swift; sourceTree = "<group>"; };
+		FEC39A9C2AAAB3A6002677FA /* EmptyLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyLocationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +212,8 @@
 				FE71A1532AAAADFE00D9D4BC /* LoadingView.swift */,
 				FE71A1552AAAAE1D00D9D4BC /* LottieView.swift */,
 				FE71A1602AAAAED500D9D4BC /* CharacterRowView.swift */,
+				FEC39A9A2AAAB372002677FA /* DetailLabelView.swift */,
+				FEC39A9C2AAAB3A6002677FA /* EmptyLocationView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -389,7 +395,9 @@
 				FE71A11D2AAAA79A00D9D4BC /* RickAndMorty.xcdatamodeld in Sources */,
 				FE71A11A2AAAA79A00D9D4BC /* Persistence.swift in Sources */,
 				FE71A1132AAAA79900D9D4BC /* HomeView.swift in Sources */,
+				FEC39A9B2AAAB372002677FA /* DetailLabelView.swift in Sources */,
 				FE71A1482AAAAC2400D9D4BC /* HomeViewModel.swift in Sources */,
+				FEC39A9D2AAAB3A6002677FA /* EmptyLocationView.swift in Sources */,
 				FE71A1112AAAA79900D9D4BC /* RickAndMortyApp.swift in Sources */,
 				FE71A14B2AAAACDD00D9D4BC /* APIResponse.swift in Sources */,
 				FE71A1562AAAAE1D00D9D4BC /* LottieView.swift in Sources */,
