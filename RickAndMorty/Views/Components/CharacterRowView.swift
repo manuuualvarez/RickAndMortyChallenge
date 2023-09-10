@@ -56,13 +56,13 @@ struct CharacterRowView: View {
         }
         withAnimation {
             viewContext.delete(item)
-          do {
-            try viewContext.save()
-          } catch {
-            let nsError = error as NSError
-              logged(type: .error, message: nsError.localizedDescription, fileName: "CharacterRowView", method: "deleteCharacterItem()")
-            fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
-          }
+            do {
+                try viewContext.save()
+            } catch {
+                let nsError = error as NSError
+                logged(type: .error, message: nsError.localizedDescription, fileName: "CharacterRowView", method: "deleteCharacterItem()")
+                fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
+            }
         }
         checkIsFavorite()
     }
